@@ -112,6 +112,7 @@ Sources : [questions-restantes — genre](./questions-restantes.md), [meta-analy
 | cycle-promotion, methodologies-grandes-entreprises, innersource-golden-paths | Ch. 11 ✍ |
 | cycle-promotion (pilotage), mesure-complexite-fenetre | Ch. 12 ✍ |
 | equipe-agile, epidemiologiste, kubernetes-pods-roles, limite-analogie-kubernetes, taxonomie-angles-morts, haier, responsabilite-pilote (organisation) | Ch. 13 ✍ |
+| industrialisation-chaine-montage (chaîne de montage + biologie) | Ch. 13 ✍ (échos ch. 10 membrane/gateway, ch. 11 propagation latérale) |
 | byoia-pas-plus-sur, cadre-cse, jurisprudence-cse, eu-ai-act, conformite-par-design, distinguo-url | Ch. 14 ✍ |
 | amazon, methodologies, haier, positionnement-malleable, logiciel-malleable-jetable | Ch. 15 ✍ |
 | meta-analyse (le trou), taxonomie (instrument), questions-restantes (genre) | Ch. 16 ✍ |

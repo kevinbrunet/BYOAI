@@ -33,6 +33,7 @@ L'uniformisation logicielle des 20 dernières années reposait sur une confusion
   - [Positionnement — versant organisationnel du malleable software](../01-concepts/positionnement-malleable-software.md)
   - [La règle exécutable — la fin du wiki](../01-concepts/regle-executable-fin-du-wiki.md)
   - [Responsabilité du pilote et diversité des harnais](../01-concepts/responsabilite-pilote-diversite-harnais.md)
+  - [Industrialisation — la chaîne de montage et le vivant](../01-concepts/industrialisation-chaine-montage.md)
 
 - **02-arguments/** — les 5 arguments qui justifient le changement de régime économique
   - [1. Effondrement de l'économie d'échelle sur le code](../02-arguments/01-effondrement-economie-echelle-code.md)

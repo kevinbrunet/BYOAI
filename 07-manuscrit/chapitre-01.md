@@ -8,7 +8,7 @@ L'explication paresseuse serait que les éditeurs de logiciels d'entreprise sont
 
 ## Sortie, prise de parole, et la troisième voie
 
-Il existe un cadre classique pour penser cette situation. Dans *Exit, Voice, and Loyalty* (1970), l'économiste Albert Hirschman décrit les deux réactions possibles d'un individu face à une organisation ou un produit qui se dégrade : la sortie — on part, on achète ailleurs — et la prise de parole — on reste et on proteste pour obtenir un changement.
+Il existe un cadre classique pour penser cette situation. Dans *Exit, Voice, and Loyalty* (1970), l'économiste Albert Hirschman[^1-1] décrit les deux réactions possibles d'un individu face à une organisation ou un produit qui se dégrade : la sortie — on part, on achète ailleurs — et la prise de parole — on reste et on proteste pour obtenir un changement.
 
 Appliquez ce cadre au poste de travail. La sortie est impossible : l'outil est imposé, l'utiliser conditionne la paie, les congés, la production. La prise de parole existe en théorie — remontées utilisateurs, tickets, enquêtes de satisfaction — mais chacun a appris par l'expérience ce qu'elle pèse : qui, dans une carrière, a vu sa remontée utilisateur modifier un ERP ? Le canal existe ; la boucle de rétroaction, non. L'éditeur vend à la direction des achats, pas à l'utilisateur ; le contrat court sur des années ; la roadmap arbitre entre des milliers de clients. La voix se perd dans des couches que personne ne traverse.
 
@@ -45,6 +45,10 @@ Il faut voir ce moment pour ce qu'il est. Ce n'est pas l'irruption d'une technol
 Et c'est ici que ce livre choisit son camp, ou plutôt refuse le choix qu'on lui propose. Le réflexe institutionnel face à ce phénomène est défensif : bloquer, surveiller, encadrer — traiter le salarié qui s'outille comme un risque ambulant. Le réflexe inverse, libertaire, serait de laisser faire — et de découvrir dans deux ans un archipel d'outils non testés, non tracés, accrochés aux données de l'entreprise. Ce livre soutient que l'alternative est fausse. Le salarié qui contourne a raison sur le diagnostic : le logiciel imposé ne couvre pas son travail réel. La DSI qui s'inquiète a raison sur l'exigence : certaines garanties — la cohérence des données, la traçabilité, la conformité — ne sont pas négociables. Toute la suite de ce livre consiste à donner à ces deux raisons une architecture commune, au lieu de les laisser s'affronter.
 
 Mais avant l'architecture, il faut finir le diagnostic. Car si le logiciel d'entreprise déçoit si uniformément, ce n'est pas seulement parce qu'on ne peut pas le quitter. C'est parce qu'il repose sur une erreur de probabilités que tout le monde commet — et qu'elle est réparable.
+
+## Notes et sources
+
+[^1-1]: Albert O. Hirschman, *Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States*, Harvard University Press, 1970 (trad. fr. *Défection et prise de parole*, Fayard, 1995). ✓ Ouvrage et thèse *exit/voice*. La « troisième voie » — le contournement — est une extension propre à ce livre, pas une thèse de Hirschman. ~ Référence exacte de l'édition française à confirmer aux notes finales.
 
 ---
 

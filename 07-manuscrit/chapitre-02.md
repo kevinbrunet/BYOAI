@@ -28,7 +28,7 @@ Et les deux tiers restants ? Le chapitre 1 a déjà répondu : ils sont pris en 
 
 ## L'armoire à fibre optique
 
-Une image, pour fixer ce que produit un système piloté par le nominal quand la réalité dévie. Dans les armoires de brassage des opérateurs de fibre optique, tout fonctionne parfaitement sur le papier : les tickets de raccordement sont traités un par un, rationnellement, par ordre de priorité. Et pourtant certaines armoires sont un chaos de câbles inextricable, où les pannes se multiplient sans cause apparente.
+Une image, pour fixer ce que produit un système piloté par le nominal quand la réalité dévie. Dans les armoires de brassage des opérateurs de fibre optique[^2-1], tout fonctionne parfaitement sur le papier : les tickets de raccordement sont traités un par un, rationnellement, par ordre de priorité. Et pourtant certaines armoires sont un chaos de câbles inextricable, où les pannes se multiplient sans cause apparente.
 
 Le mécanisme : un technicien arrive, ticket en main. Plus de port disponible ? Il débranche "temporairement" un client voisin pour raccorder le sien — son ticket est résolu, il repart. Le lendemain, un autre technicien fait de même pour résoudre le sien. Puis un troisième. Chaque intervention est individuellement rationnelle, localement correcte, conforme au processus. La somme est une boucle de panne infinie.
 
@@ -43,6 +43,10 @@ Mais la conséquence qui porte ce livre est plus profonde. Si les déviations so
 C'est exactement ce coût qui vient de s'effondrer, et le chapitre 4 mesurera précisément ce qui s'est effondré — et ce qui ne s'est pas effondré, car il y a un piège, et il est sérieux. Disons-le dès maintenant pour ne pas être accusé de vendre du rêve : donner un générateur de code à chaque salarié et le laisser couvrir ses déviations tout seul, c'est lui faire coder *son* happy path à lui — sans tests, sans architecture, sans mémoire. Le problème ne disparaît pas, il se fragmente en mille exemplaires. La façon d'éviter ça est une affaire d'architecture et de rôles, et c'est le cœur des chapitres suivants.
 
 Avant cela, il reste un fait à établir. Ce mouvement vers le spécifique n'est pas une hypothèse d'école dont on débattrait tranquillement : il a déjà commencé, sans autorisation, à grande échelle, dans vos murs. C'est l'objet du chapitre 3.
+
+## Notes et sources
+
+[^2-1]: L'illustration de l'armoire à fibre optique est empruntée à une intervention de Frédéric Leguédois (« Éloge de la simplicité »). Crédit repris ici au point d'usage ; à consolider dans les remerciements de l'ouvrage. Le calcul 0,9¹⁰ ≈ 35 % est arithmétique (hypothèses explicitées dans le texte : 10 étapes, 90 % de fiabilité par étape) — aucune source externe requise.
 
 ---
 
