@@ -18,3 +18,7 @@ C'est précisément là que le [BYOIA](../01-concepts/byoia.md) s'insère : il c
 ## Généralisation
 
 Le principe se généralise à tous les métiers, pas seulement à la DSI : support, RH, autres fonctions. Chacun interagit avec une plateforme commune portée par l'entreprise, et branche son harnais personnel dessus — pour la RH, ce sera un autre socle que Git/Jira/Teams, mais le principe de séparation reste identique.
+
+## Pour aller plus loin
+
+Développement complet du mécanisme (rôles, délégation, sécurité, métriques) sur ce même terrain : [CI/CD, un processus comme un autre](./cicd-processus-comme-un-autre.md).

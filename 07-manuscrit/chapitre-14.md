@@ -50,7 +50,7 @@ Il ne reste qu'une question, et c'est la dernière partie de ce livre : tout cel
 
 [^14-4]: Règlement (UE) 2024/1689 (*AI Act*). ✓ Systèmes d'emploi et de gestion des travailleurs classés à haut risque (annexe III). ~ Obligations du déployeur : supervision humaine (art. 14 ; art. 26 côté déployeur), conservation des journaux ≥ 6 mois, information des travailleurs et de leurs représentants, analyse d'impact sur les droits fondamentaux dans certains cas ; obligation de *maîtrise de l'IA* / *AI literacy* (art. 4), déjà en vigueur. ⚠ Numéros d'articles et périmètre exacts à valider sur le texte consolidé et par un avocat.
 
-[^14-5]: ~ Report des obligations « haut risque » de la catégorie emploi de l'été 2026 à fin 2027 (≈ 2 décembre 2027) par le paquet de simplification européen (« omnibus »). ⚠ Date et portée exactes à confirmer sur le texte adopté — argument des « dix-sept mois » dépendant de cette date.
+[^14-5]: Report des obligations « haut risque » de la catégorie emploi (annexe III : recrutement, sélection, promotion, rupture, allocation des tâches, surveillance de la performance). ✓ Du 2 août 2026 au **2 décembre 2027** (report de 16 mois) par le paquet « Digital Omnibus » ; accord politique provisoire du 7 mai 2026 (Parlement + Conseil), vérifié par recoupement de plusieurs cabinets (Gibson Dunn, DLA Piper, Ogletree, Travers Smith), juillet 2026. ~ Prend effet légal seulement à l'adoption et à la publication au Journal officiel, attendues avant le 2 août 2026 — donc encore provisoire à la date d'écriture. ⚠ Incohérence à trancher : le corps parle de « dix-sept mois » (délai restant depuis mi-2026), alors que le report lui-même est de 16 mois — harmoniser avant publication.
 
 ---
 

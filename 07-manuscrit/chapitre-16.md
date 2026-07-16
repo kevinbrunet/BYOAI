@@ -4,7 +4,7 @@ Ce livre s'achève comme il a commencé : en refusant de vous demander votre con
 
 ## Ce que personne n'a encore mesuré
 
-Un trou traverse toute la littérature du chapitre 4, et il faut le désigner : toutes les études disponibles mesurent du code généré par IA *puis maintenu de façon classique* — inséré dans des dépôts durables, revu, corrigé, accumulé. Aucune ne mesure le régime que ce livre propose : du code **jetable et régénéré** — l'outil d'étage utilisateur qu'on ne corrige pas mais qu'on refait, sous harnais, hors du périmètre de considération. Les données qui accablent le code généré décrivent le monde où on le traite comme du code durable ; elles ne disent rien du monde où on ne le fait pas. Ce silence est une faiblesse — le régime jetable reste une hypothèse — et une opportunité : le premier qui publiera ces chiffres n'existe pas encore. Ce chapitre voudrait que ce soit vous.
+Un trou traverse toute la littérature du chapitre 4, et il faut le désigner : toutes les études disponibles mesurent du code généré par IA *puis maintenu de façon classique* — inséré dans des dépôts durables, revu, corrigé, accumulé. Aucune ne mesure le régime que ce livre propose : du code **jetable et régénéré** — l'outil d'étage utilisateur qu'on ne corrige pas mais qu'on refait, sous harnais, hors du périmètre de considération. Les données qui accablent le code généré décrivent le monde où on le traite comme du code durable ; elles ne disent rien du monde où on ne le fait pas. Ce silence est une faiblesse — le régime jetable reste une hypothèse — et une opportunité : le premier qui publiera ces chiffres n'existe pas encore. Ce chapitre voudrait que ce soit vous[^16-1].
 
 ## Six prédictions
 
@@ -43,6 +43,10 @@ Refermons la boucle ouverte à la première page. Ce livre a commencé dans un b
 Le reste — le socle, la frontière, les verrous, le cycle, la fenêtre, les rôles, le droit — n'est que l'architecture qui permet d'accueillir ce débordement au lieu de le subir ou de l'interdire. Elle se construit par étages, elle se mesure elle-même, et elle vous dira si elle tient. Le BYOAI est ce qui vous arrive. Ce que vous en faites porte, dans ce livre, un nom de travail et une promesse : que la prochaine recette de cuisine née à la machine à café, au lieu de mourir dans un wiki, devienne un outil le jour même — et, si elle le mérite, entre un jour à la carte commune.
 
 La machine à café, elle, ne sert plus qu'à faire le café. C'est déjà beaucoup.
+
+## Notes et sources
+
+[^16-1]: Le « trou » de la littérature — aucune étude ne mesure le code *jetable et régénéré* — est établi au chapitre 4 (voir sa note et la fiche méta-analyse). La sixième prédiction (compagnonnage) prolonge la note *Trésor-Éco* citée au chapitre 13. Ce chapitre n'introduit aucune donnée externe nouvelle : les six prédictions, leurs clauses de falsification et la feuille de route sont propres au modèle et renvoient aux notes des chapitres correspondants (6, 8, 9, 10, 11, 12, 13, 14).
 
 ---
 

@@ -35,7 +35,7 @@ Sources : [responsabilite-pilote-diversite-harnais](../01-concepts/responsabilit
 
 **Ch. 6 — La frontière fiduciaire.** ✍ RÉDIGÉ — [chapitre-06](../07-manuscrit/chapitre-06.md)
 Le test des cinq questions ; la compression : si quelqu'un d'autre doit pouvoir s'y fier, c'est le SI ; la lecture écritures/lectures (CQRS) ; le cas RH matin/après-midi ; le cas vécu DSI : Git, DoD, DoR ; le mandat API d'Amazon ; l'objection "l'IA code des deux côtés" tranchée par le critère. *Question-lecteur (tous) : qu'est-ce qui reste à moi, qu'est-ce qui part au collaborateur ?*
-Sources : [doctrine](../05-questions-ouvertes/doctrine-frontiere-si-interface.md), [arbitrage — tranché](../04-objections/arbitrage-regle-gestion-vs-interface.md), [frontiere-si-ia-genere-code](../04-objections/frontiere-si-ia-genere-code.md), [git-dod-dor-dsi](../03-exemples/git-dod-dor-dsi.md), [amazon-mandat-api](../03-exemples/amazon-mandat-api.md), [05-garanties](../02-arguments/05-garanties-non-negociables.md).
+Sources : [doctrine](../05-questions-ouvertes/doctrine-frontiere-si-interface.md), [arbitrage — tranché](../04-objections/arbitrage-regle-gestion-vs-interface.md), [frontiere-si-ia-genere-code](../04-objections/frontiere-si-ia-genere-code.md), [git-dod-dor-dsi](../03-exemples/git-dod-dor-dsi.md), [amazon-mandat-api](../03-exemples/amazon-mandat-api.md), [05-garanties](../02-arguments/05-garanties-non-negociables.md). *(2026-07-15 : ajout [cicd-processus-comme-un-autre](../03-exemples/cicd-processus-comme-un-autre.md) et [skills-si-vs-skills-personnels](../01-concepts/skills-si-vs-skills-personnels.md) — nouvelle section « le workflow lui-même est un artefact du test ».)*
 
 ## Partie III — L'architecture (la descente dans les protocoles)
 
@@ -104,7 +104,7 @@ Sources : [questions-restantes — genre](./questions-restantes.md), [meta-analy
 | byoai-shadow-ai-marche, byoai-solutions-existantes | Ch. 3 ✍ |
 | meta-analyse-cout-aval, frontiere-structure-interface, generique-vs-specifique, arguments 1-4, deplacement-cout-aval, destin-low-code, bilan-low-code | Ch. 4 ✍ |
 | responsabilite-pilote-diversite-harnais (mécanique), taxonomie-angles-morts (pièges), multi-agents-agregation (littérature) | Ch. 5 ✍ |
-| doctrine, arbitrage, frontiere-si-ia-genere-code, git-dod-dor, amazon-mandat-api, argument 5 | Ch. 6 ✍ |
+| doctrine, arbitrage, frontiere-si-ia-genere-code, git-dod-dor, amazon-mandat-api, argument 5, cicd-processus-comme-un-autre, skills-si-vs-skills-personnels | Ch. 6 ✍ |
 | approche-datacentrique, dcb-decisions, dcb-event-sourcing, regle-executable, acces-conversationnel, claude-tag | Ch. 7 ✍ |
 | delegation-agents, identite-agents-standards, kagenti, cartographie-maturite | Ch. 8 ✍ |
 | delegation (section humain/agent) | Ch. 9 ✍ |
@@ -125,8 +125,33 @@ Sources : [questions-restantes — genre](./questions-restantes.md), [meta-analy
 
 Post 1→Ch. 3 · Post 2→Ch. 1 · Post 3→Ch. 3 · Post 4→Ch. 14 · Post 5→Ch. 14/6 · Post 6→Ch. 6 · Post 7→Ch. 9 · Post 8→Ch. 11/15 · Post 9→Ch. 11-12 · Post 10→Ch. 15-16. La série teste les accroches ; les retours nourrissent la rédaction. Le ch. 5 (harnais/pièges) est un candidat naturel à un post supplémentaire ("la boucle n'enrichit plus rien").
 
+## Convention de sourcing (décision Kevin, 2026-07-12)
+
+Appliquée à tout le manuscrit (16 chapitres) le 2026-07-12.
+
+- **Double appareil** : nom de la source *dans la phrase* (inline) + **note de fin numérotée** par chapitre au format Pandoc `[^ch-n]` (compile en vraies notes). Chaque chapitre a une section « ## Notes et sources » avant les notes de rédaction.
+- **Marqueurs obligatoires** dans chaque note : ✓ (confiance raisonnable) / ~ (approximatif, à vérifier) / ⚠ (incertain ou extrapolé, ne pas publier sans vérif).
+- **Dé-anonymisation des cas publics documentés** : Shell, Microsoft, Amazon, Haier, Spotify/Backstage, Ink & Switch/Litt sont nommés. Distinction maintenue : les **noms de produits périssables** (gateways, moteurs d'anonymisation, briques d'auth) restent en **Annexe A**, datés — stratégie anti-obsolescence, ce n'est pas de l'anonymisation de cas.
+- **Clins d'œil de prose conservés** (« streamer suédois », « fabricant de frigos chinois ») mais la source réelle est nommée en note — à repasser en nom-dans-la-phrase si Kevin le préfère.
+
+### Liste des ⚠ / ~ à vérifier en source primaire avant publication
+
+- **Note Trésor-Éco 2026** (ch. 13 §Trésor, ch. 9, ch. 11, ch. 12) : n° et date exacts de la note, chiffres 4,5-6,2 % / 59 % / −3,8 pts / 51 % / 60 % / 10 % — lire le PDF DG Trésor.
+- **Enquête Kéa × OpinionWay 2026** (ch. 3, 9, 11, 12) : méthodologie et formulations (28 % / 66 % / 16 % / 51 % / 60 % / 10 %) — lire le PDF.
+- **Work Trend Index 78 %** (ch. 3) : formulation et périmètre exacts.
+- **« Adoption plus rapide que cloud/mobile »** (ch. 3) : ⚠ non sourcé — étayer ou adoucir.
+- **AI Act** (ch. 9, 14) : ✓ report annexe III au 2 déc. 2027 confirmé (Digital Omnibus, accord 7 mai 2026, vérifié web 2026-07 — mais adoption formelle pendante) ; ⚠ **incohérence « 16 mois » (report) vs « dix-sept mois » (corps ch. 14) à harmoniser** ; n° d'articles (14, 26, 4, annexe III) à valider avocat.
+- **Jurisprudence CSE** (ch. 14) : TJ Nanterre 14/02/2025 ; TJ Nanterre 29/01/2026 n° 25/02856 ; CA Paris 21/05/2026 RG 25/13234 — vérifier sur les décisions ; articles L. 2312-8 / L. 1121-1 / L. 1222-4 sur Légifrance.
+- **Kagenti/AuthBridge** (ch. 8) : ⚠ re-vérification obligatoire sur les publications Red Hat (hallucination partielle signalée).
+- **« Lost in the Middle »** (ch. 5) : venue exacte (TACL) + études « context rot » Chroma.
+- **Coût de propagation** (ch. 12) : référence exacte MacCormack/Baldwin/Rusnak.
+- **Ordres de grandeur Haier** (ch. 15) : 80 000 personnes, milliers de micro-entreprises.
+- **Auto-correction Huang et al.** (ch. 5) : proportion exacte « aussi souvent qu'elle répare ».
+- **Chiffre Gartner marché gateways** (ch. 10, ~25/75 Md$) : source unique non recoupée.
+
 ## Chantiers ouverts du plan
 
+0. **Passe « périmètre et risques » sur les 16 chapitres** (décision Kevin, 2026-07-15) : croyance populaire citée en exergue + section fermante vrai sur / faux sur / risque BYOIA / mitigation, à chaque chapitre. Grille complète et ordre de remaniement : [grille-perimetre-risques-par-chapitre](./grille-perimetre-risques-par-chapitre.md). Option d'insertion à valider (A recommandée). Un chapitre par commit git — rien ne se perd.
 1. La thèse falsifiable en une phrase (introduction) — dernier gros chantier de formulation.
 2. Relecture avocat du ch. 14.
 3. Le schéma d'architecture complet (ch. 15 / post 10) n'est pas encore dessiné.

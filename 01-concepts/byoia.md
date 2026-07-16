@@ -21,7 +21,9 @@ Si chaque salarié se met à coder son outil "parfait" avec un LLM connecté à 
 
 Le collaborateur connecte les API de l'entreprise (structure, données, règles de gestion) à son équipe IA personnelle pour réaliser la tâche qui lui est demandée. Il fournit en retour les données nécessaires à son suivi via ces mêmes API vers la partie commune.
 
-Exemple DSI : le collaborateur branche son harnais IA personnel sur Git/Jira/Teams — la structure (rôles, sécurité, DoD/DoR) reste commune, la réalisation de l'étape est individuelle. Voir [Git, DoD, DoR dans la DSI](../03-exemples/git-dod-dor-dsi.md).
+Exemple DSI : le collaborateur branche son harnais IA personnel sur Git/Jira/Teams — la structure (rôles, sécurité, DoD/DoR) reste commune, la réalisation de l'étape est individuelle. Voir [Git, DoD, DoR dans la DSI](../03-exemples/git-dod-dor-dsi.md) et son développement complet sur la CI/CD : [un processus comme un autre](../03-exemples/cicd-processus-comme-un-autre.md).
+
+Le harnais personnel lui-même se compose de skills, qui suivent la même séparation : voir [skills SI vs skills personnelles](./skills-si-vs-skills-personnels.md).
 
 ## Distinction importante avec Claude Tag
 
