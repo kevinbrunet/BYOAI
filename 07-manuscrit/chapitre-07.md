@@ -1,6 +1,6 @@
 # Chapitre 7 — La structure : tout passe par l'API
 
-La frontière du chapitre 6 sépare deux mondes : ce à quoi d'autres doivent pouvoir se fier, et le reste. La troisième partie de ce livre construit le premier monde — le socle. Non pas dans l'abstrait : brique par brique, jusqu'aux principes de fonctionnement des protocoles, parce que c'est à ce niveau que les promesses de gouvernance deviennent vraies ou restent des slides.
+Le gradient du chapitre 6 sépare deux mondes : ce à quoi d'autres doivent pouvoir se fier, qui grimpe vers l'Assurance Level maximal, et le reste, qui reste au niveau 0. La troisième partie de ce livre construit le premier monde — le socle qui porte les artefacts au sommet du gradient. Non pas dans l'abstrait : brique par brique, jusqu'aux principes de fonctionnement des protocoles, parce que c'est à ce niveau que les promesses de gouvernance deviennent vraies ou restent des slides.
 
 Un socle digne de confiance doit savoir faire quatre choses. Exposer — offrir aux interfaces de chacun tout ce dont elles ont besoin, et rien d'autre. Se souvenir — porter la mémoire qui survit aux personnes. Refuser en expliquant — faire respecter les règles sans exiger qu'on les connaisse d'avance. Et reconnaître qui lui parle — humain, agent, ou chaîne des deux. Ce chapitre traite les trois premières ; la quatrième, la plus délicate, occupera les chapitres 8 et 9.
 

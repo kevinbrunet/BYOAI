@@ -1,22 +1,24 @@
 # Chapitre 11 — Le cycle de promotion
 
-Projetons-nous six mois après le déploiement de l'architecture des chapitres précédents. Le socle expose ses API, les harnais produisent, les verrous tiennent. Et l'entreprise compte maintenant quelques centaines d'outils spécifiques : le tableau de suivi de la gestionnaire RH, le croiseur d'extractions du contrôleur de gestion, les scripts du technicien de maintenance. C'est le succès du modèle — et c'est le cauchemar annoncé de tout DSI qui lit ce livre : des centaines d'outils, qui les connaît, qui les maintient, qui les éteint ? La réponse tient en un mot que l'informatique d'entreprise n'applique jamais à ses outils : un **cycle de vie**. Pas un inventaire, pas un comité — un chemin, avec des étages, des règles de passage, et un sens de circulation dans les deux directions.
+Projetons-nous six mois après le déploiement de l'architecture des chapitres précédents. Le socle expose ses API, les harnais produisent, les verrous tiennent. Et l'entreprise compte maintenant quelques centaines d'outils spécifiques : le tableau de suivi de la gestionnaire RH, le croiseur d'extractions du contrôleur de gestion, les scripts du technicien de maintenance. C'est le succès du modèle — et c'est le cauchemar annoncé de tout DSI qui lit ce livre : des centaines d'outils, qui les connaît, qui les maintient, qui les éteint ? La réponse tient en un mot que l'informatique d'entreprise n'applique jamais à ses outils : un **cycle de vie**. Pas un inventaire, pas un comité — un chemin, avec des paliers, des règles de passage, et un sens de circulation dans les deux directions.
+
+Le chapitre 6 a posé le gradient et lui a donné un nom, l'Assurance Level — plus les autres doivent pouvoir se fier à un artefact, plus il doit prouver qu'il le mérite. Ce chapitre construit le chemin qui permet de monter ce gradient, palier par palier, et — tout aussi important — d'en redescendre.
 
 Que ce chemin manque partout, les chiffres le disent : l'enquête française du chapitre 3 montre une adoption de l'IA bloquée à l'étage pilote — un tiers des entreprises encore en exploration, une sur six seulement avec des cas d'usage déployés à l'échelle[^11-1]. Le fameux "passage à l'échelle", dont toutes les directions parlent, n'est pas un problème de technologie : c'est un problème de trajet. Il n'existe, dans la plupart des organisations, aucun chemin outillé entre le pilote qui marche et l'outil industrialisé — on saute, ou on reste en bas. Ce chapitre construit le trajet.
 
-## Quatre étages, quatre contrats
+## Quatre paliers, quatre contrats
 
-Le spécifique n'a pas vocation à rester isolé — ni à être promu d'office. Il naît en bas et monte s'il le mérite :
+Le spécifique n'a pas vocation à rester isolé — ni à être promu d'office. Il naît en bas et monte s'il le mérite. Ce sont les quatre mêmes paliers que le chapitre 6 a introduits comme un gradient : ici, on les regarde comme un chemin.
 
-**L'étage utilisateur.** L'outil appartient à celui qui l'a fait faire. Il peut casser demain — c'est son problème, et c'est un problème minuscule : l'outil se régénère. Personne d'autre ne s'en sert, personne d'autre n'a besoin de le savoir ; tant qu'il respecte la frontière — il ne fait que consommer les API, préparer, projeter —, il n'existe pour personne.
+**Assurance Level 0 — l'étage utilisateur.** L'outil appartient à celui qui l'a fait faire. Il peut casser demain — c'est son problème, et c'est un problème minuscule : l'outil se régénère. Personne d'autre ne s'en sert, personne d'autre n'a besoin de le savoir ; tant qu'il reste au niveau 0 — il ne fait que consommer les API, préparer, projeter —, il n'existe pour personne, et il ne doit rien prouver à personne.
 
-**L'étage équipe.** L'outil a fait ses preuves ; des collègues le veulent. Sa maintenance se **mutualise** : l'équipe le connaît, et l'on fait désormais attention à lui lors des changements internes.
+**Assurance Level 1 — l'étage équipe.** L'outil a fait ses preuves ; des collègues le veulent. Sa maintenance se **mutualise** : l'équipe le connaît, et l'on fait désormais attention à lui lors des changements internes.
 
-**L'étage service.** L'outil devient un cas pris en compte : celui qui modifie un référentiel ou une API du périmètre doit le considérer.
+**Assurance Level 2 — l'étage service.** L'outil devient un cas pris en compte : celui qui modifie un référentiel ou une API du périmètre doit le considérer.
 
-**L'étage entreprise.** L'outil s'intègre à l'API commune, avec le contrat le plus exigeant : non-régression, rétro-compatibilité, traçabilité pleine.
+**Assurance Level 3 — l'étage entreprise.** L'outil s'intègre à l'API commune, avec le contrat le plus exigeant : non-régression, rétro-compatibilité, traçabilité pleine. C'est le niveau que le chapitre 6 a comparé au sommet du DAL aviation, du SIL industriel, du niveau 3 de SLSA — la rigueur maximale, réservée à ce qui l'exige réellement.
 
-Voyez ce qui monte avec l'outil : à chaque étage, **la maintenance est transférée** — de l'individu à l'équipe, de l'équipe au service, du service à l'entreprise — et le **contrat de stabilité** se durcit. C'est le premier point que le sceptique doit entendre : le modèle ne demande à personne de maintenir des centaines d'outils. L'immense majorité vit et meurt à l'étage utilisateur, où sa maintenance est : le régénérer. Seul ce qui prouve sa valeur monte, et seul ce qui monte coûte.
+Voyez ce qui monte avec l'outil : à chaque palier, **la maintenance est transférée** — de l'individu à l'équipe, de l'équipe au service, du service à l'entreprise — et le **contrat de stabilité** se durcit, exactement comme la couverture de preuve exigée grimpe d'un niveau DAL au suivant. C'est le premier point que le sceptique doit entendre : le modèle ne demande à personne de maintenir des centaines d'outils au niveau maximal. L'immense majorité vit et meurt à l'Assurance Level 0, où sa maintenance est : le régénérer. Seul ce qui prouve sa valeur monte, et seul ce qui monte coûte.
 
 Et nommons ce que la promotion achète réellement, car c'est plus subtil qu'un transfert de charge : elle achète une place dans le **périmètre de considération des changements**. Un outil d'étage utilisateur n'existe pas aux yeux de celui qui modifie le SI — s'il casse, il régénère. Un outil d'étage service, si : chaque évolution du périmètre doit le prendre en compte. C'est exactement la définition de la fiabilité du point de vue d'autrui — et c'est pour cela que la promotion coûte.
 
@@ -70,6 +72,7 @@ Un cycle, des contrats, des mesures, un sens de l'élagage. Restent deux questio
 
 ## Notes de rédaction (hors manuscrit)
 
+- **Fusion 2026-07-16 (décision Kevin)** : le cycle de promotion de ce chapitre et la "frontière fiduciaire" du ch. 6 sont désormais un seul concept, l'**Assurance Level** — un gradient (ch. 6, test des cinq questions = la jauge) parcouru par un chemin (ce chapitre = comment on monte/descend). Les quatre étages sont renumérotés 0 à 3 et explicitement reliés aux précédents DAL/SIL/SLSA introduits au ch. 6. Le reste du chapitre (mécanique de promotion/descente, métriques, fenêtre, précédents Shell/Microsoft/Backstage) est inchangé sur le fond — seule la coiffe conceptuelle change. Propagation à vérifier dans le reste du chapitre : les usages ponctuels de "étage utilisateur/équipe/service/entreprise" plus loin dans le texte restent valides tels quels, la correspondance numérique étant posée dès l'ouverture de la section.
 - Source principale : [cycle-promotion-specifique](../01-concepts/cycle-promotion-specifique.md) — tout y est repris : étages, contrats, périmètre de considération, uniformisation a posteriori, métriques, fork/incitation, descente, asymétrie.
 - La promesse du ch. 7 ("bétonner l'absurde") est tenue ici, comme prévu — les règles exécutables ont un cycle de vie via le stream de décisions.
 - ~ Le péage de mise au standard : "cycles de revue sensiblement allongés, effort de test multiplié" — chiffres Apiiro (revue ×2, fixes post-merge ×3) dé-chiffrés car source vendeur ; valeurs dans [meta-analyse-cout-aval](../06-etat-de-lart/meta-analyse-cout-aval.md).
