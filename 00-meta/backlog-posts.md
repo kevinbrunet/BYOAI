@@ -74,6 +74,23 @@ Post LinkedIn en réaction à la conférence "Éloge de la simplicité" de Fréd
 
 Le conférencier a réagi publiquement en confirmant que la piste était juste mais hors du format de sa conférence (45 minutes) — point d'ouverture possible pour un prolongement ou une collaboration future, non formalisé à ce stade.
 
+## Nouvel article à considérer — le harnais comme vecteur de compagnonnage
+
+**Origine : discussion article 4 (2026-07-18).** Répond à la question que l'article 22 ("Le développeur de terrain") laisse lui-même ouverte dans son propre Post 2 : "reste à prouver que ça produit des seniors aussi bien que l'ancien modèle."
+
+**La thèse en une phrase :** le harnais ne remplace pas le compagnonnage, il en devient le support — le junior apprend en pilotant, sous supervision, un harnais dont les règles (tests, revue, garde-fous) encodent le jugement des seniors qui l'ont construit, avec une explication à chaque refus plutôt qu'un simple blocage.
+
+**Structure proposée :**
+- Point de départ : le problème du pipeline junior déjà posé en article 22 (contraction de l'emploi junior en informatique, note Trésor-Éco 2026 ⚠ non vérifiée) — l'IA absorbe les tâches codifiées qu'on confiait aux débutants pour apprendre.
+- Le renversement : au lieu d'un problème à subir, une réorganisation possible — mettre les juniors proches des équipes qui utilisent un harnais construit par des seniors. Le transfert de connaissance passe par le harnais lui-même, pas seulement par la disponibilité d'un senior.
+- Le mécanisme : chaque refus du harnais est expliqué, pas juste bloqué (callback article 19, "refuser en expliquant") — une boucle de feedback immédiate et cohérente, plus rapide qu'attendre qu'un senior ait le temps de relire.
+- La limite à nommer honnêtement, pour ne pas survendre l'idée : le harnais transfère le jugement codifiable des seniors, pas le jugement tacite. Parallèle à surveiller avec l'article 3 (Goodhart) : un junior qui apprend seulement à satisfaire le harnais plutôt qu'à comprendre le problème reproduit, à l'échelle humaine, l'écueil documenté chez les agents IA. Le compagnonnage humain reste nécessaire pour la part tacite.
+- Connexion possible avec l'Assurance Level (article 24, phase 3) : la progression d'autonomie du junior via le harnais peut préfigurer, en modèle réduit, la logique de confiance croissante que l'Assurance Level formalise pour les agents IA.
+
+**Placement à trancher avec Kevin :** article dédié inséré juste après le 22 (avec renumérotation de la suite de la série, précédent déjà posé par l'insertion de l'article 25 le 17/07), ou approfondissement direct du "Détail"/Post 2 de l'article 22 qui pose déjà la question sans y répondre.
+
+**Audience :** DSI, RH, tech leads qui doivent défendre une trajectoire de formation face à des dirigeants inquiets du pipeline junior.
+
 ## Recommandation éditoriale
 
 Ne pas surcharger les posts existants (calibrés pour LinkedIn). Créer le nouveau post séparément, et ajouter une simple note de renvoi dans les posts 11 et 12 pour signaler la connexion, plutôt que d'y injecter tout le contenu DCB.
