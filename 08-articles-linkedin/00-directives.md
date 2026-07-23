@@ -94,9 +94,9 @@ Ce point vaut pour tous les articles et posts à venir, pas seulement celui qui 
 
 ## Rappels de la logique éditoriale (voir fichier maître pour le détail complet)
 
-- **Phase 1 (art. 1-8, 1er-24 sept. 2026)** : accroche pure. Chaque article se lit seul, sans vocabulaire du livre. Certains évoquent des idées (le harnais, l'échelle de rigueur) qui ne seront nommées et démontrées qu'en phase 3 — c'est un effet voulu, pas une dette à combler tout de suite.
-- **Phase 2 (art. 9-22, 29 sept.-12 nov. 2026)** : fondations, matériau plus consensuel, sert de rattrapage.
-- **Phase 3 (art. 23-36, 17 nov. 2026-14 janv. 2027)** : le cœur original du livre (Assurance Level, décorrélation à l'aveugle, architecture de délégation, cycle de promotion, épidémiologiste du backlog).
+- **Phase 1 (art. 1-16, 1er sept.-22 oct. 2026)** : accroche pure. Chaque article se lit seul, sans vocabulaire du livre. Depuis le 19/07, le harnais (art. 6-8) et toute l'architecture d'identité et d'accès (art. 9-15) sont définis ici même, plutôt qu'évoqués et renvoyés à plus tard.
+- **Phase 2 (art. 17-26, 27 oct.-26 nov. 2026)** : fondations, matériau plus consensuel, sert de rattrapage. Rabat plusieurs fois vers des concepts déjà définis en phase 1 (le harnais notamment) plutôt que de les redéfinir.
+- **Phase 3 (art. 27-38, 1er déc. 2026-21 janv. 2027)** : le cœur original du livre (Assurance Level, décorrélation à l'aveugle, cycle de promotion, épidémiologiste du backlog).
 - Pause de fin d'année : 18 décembre 2026 → 4 janvier 2027.
 - Cadence : 2 publications/semaine, mardi et jeudi.
 - Quand l'ordre de publication s'écarte de l'ordre logique du livre (un article s'appuie sur une idée publiée plus tard, ou revient sur une idée publiée des semaines plus tôt), le signaler explicitement dans le champ Dépend de / Suite plutôt que le masquer.
